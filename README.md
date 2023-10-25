@@ -71,7 +71,7 @@ Para implementar el algoritmo, se hizo uso de la librería statsmodels, ya que t
 | 0    | 0.90      | 0.60   | 0.72     | 209     |
 | 1    | 0.48      | 0.85   | 0.61     | 91      |
 | Accuracy  |         |         | 0.68  | 300  |
-| Macro Avg | 0.69    | 0.72   | 0.67     | 300     |
+| Macro Avg | 0.69    | 0.72   | 0.67     | 300    |
 | Weighted Avg | 0.77  | 0.68   | 0.69     | 300     |
 
 
