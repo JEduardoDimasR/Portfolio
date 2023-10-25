@@ -74,7 +74,7 @@ Para implementar el algoritmo, se hizo uso de la librería statsmodels, ya que t
 | Macro Avg | 0.69    | 0.72   | 0.67     | 300    |
 | Weighted Avg | 0.77  | 0.68   | 0.69     | 300     |
 
-## Resultados del mejor Modelo de Regresión Logística
+### Resultados del mejor Modelo de Regresión Logística
 
 - **Modelo**: Logit
 - **Método**: MLE (Estimación de Máxima Verosimilitud)
