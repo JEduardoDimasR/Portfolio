@@ -14,7 +14,7 @@ principal es predecir la capacidad de pago de los clientes y ayudar en la toma d
 1. Clona este repositorio en tu entorno local:
 
 ```bash
-git clone https://github.com/tu_usuario/tu_repositorio.git
+git clone https://github.com/JEduardoDimasR/Proyecto-personal.git
 ```
 2. Abre el notebook `Clasificación_de_créditos.ipynb` para ver el código y análisis detallado del modelo.
 3. Ejecuta el notebook en un entorno de Jupyter para explorar y ejecutar el código.
