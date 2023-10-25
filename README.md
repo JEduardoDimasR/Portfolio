@@ -97,7 +97,9 @@ Para implementar el algoritmo, se hizo uso de la librería statsmodels, ya que t
 
 | Variable             | Coeficiente | Error Estándar | Estadística Z | Valor p (P>|z|) | Intervalo de Confianza (95%) |
 |----------------------|-------------|----------------|---------------|-----------------|------------------------------|
+
 | const                | -0.8969     | 0.4364         | -2.0551       | 0.0399          | [-1.7523, -0.0415]           |
+
 | duration             | 0.0197      | 0.0098         | 2.0033        | 0.0451          | [0.0004, 0.0390]              |
 | amount               | 0.0001      | 0.0000         | 2.3205        | 0.0203          | [0.0000, 0.0002]              |
 | inst_rate            | 0.2811      | 0.0929         | 3.0264        | 0.0025          | [0.0991, 0.4632]              |
@@ -107,17 +109,6 @@ Para implementar el algoritmo, se hizo uso de la librería statsmodels, ya que t
 | credit_history_A34   | -0.8781     | 0.2319         | -3.7858       | 0.0002          | [-1.3327, -0.4235]            |
 | savings_acc_A65      | -0.5448     | 0.2581         | -2.1108       | 0.0348          | [-1.0507, -0.0389]            |
 
-
-
-
-
-|      | Precision | Recall | F1-Score | Support |
-|------|-----------|--------|----------|---------|
-| 0    | 0.90      | 0.60   | 0.72     | 209     |
-| 1    | 0.48      | 0.85   | 0.61     | 91      |
-| Accuracy  |         |         | 0.68  | 300  |
-| Macro Avg | 0.69    | 0.72   | 0.67     | 300    |
-| Weighted Avg | 0.77  | 0.68   | 0.69     | 300     |
 
 
 
