@@ -26,4 +26,7 @@ Asegúrate de tener instaladas las siguientes bibliotecas de Python:
 - numpy
 - matplotlib
 - seaborn
-- 
+- statsmodels
+
+     
+
