@@ -64,7 +64,7 @@ Para abordar este problema, se utilizó uno de los algoritmos más frecuentement
 
 Para implementar el algoritmo, se hizo uso de la librería statsmodels, ya que tiene un desglose más detallado en función de sus medidas estadísticas.
 
-## Mejores resultados
+### Mejores resultados
 
 |      | Precision | Recall | F1-Score | Support |
 |------|-----------|--------|----------|---------|
