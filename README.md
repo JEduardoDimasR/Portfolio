@@ -113,16 +113,15 @@ Para implementar el algoritmo, se hizo uso de la librería statsmodels, ya que t
 
 ## Resultados
 
-El modelo final logró un AUC de 0.72, que indica su precisión. Un valor de AUC superior a 0.7 es generalmente considerado aceptable. 
+El modelo final logró un AUC de 0.72, lo cual indica su precisión. Un valor de AUC superior a 0.7 se considera generalmente aceptable.
 
-El rendimiento del modelo se evaluo utilizando varias metricas. Para la clase 0 (clientes buenos), la precisión es del 90%, lo que significa que el 90% de las predicciones de clientes buenos son correctas. Para la clase 1 (clientes malos), la precisión es del 48%, lo que significa que el 48% de las predicciones de clientes malos son correctas. Para la clase 0, el recall es del 60%, lo que significa que el modelo identificó correctamente el 60% de todos los clientes buenos. Para la clase 1, el recall es del 85%, lo que significa que el modelo identificó correctamente el 85% de todos los clientes malos. El puntaje F1 para la clase 0 es 0.72, lo que es una medida equilibrada de precisión y recall. El puntaje F1 para la clase 1 es 0.61.  La exactitud general del modelo es del 68%, lo que significa que el 68% de las predicciones son correctas en general.
+El rendimiento del modelo se evaluó utilizando varias métricas. Para la clase 0 (clientes buenos), la precisión es del 90%, lo que significa que el 90% de las predicciones de clientes buenos son correctas. Para la clase 1 (clientes malos), la precisión es del 48%, lo que significa que el 48% de las predicciones de clientes malos son correctas. En cuanto al recall, para la clase 0, es del 60%, lo que significa que el modelo identificó correctamente el 60% de todos los clientes buenos. Para la clase 1, el recall es del 85%, lo que significa que el modelo identificó correctamente el 85% de todos los clientes malos. El puntaje F1 para la clase 0 es 0.72, lo que es una medida equilibrada de precisión y recall. Para la clase 1, el puntaje F1 es 0.61. La exactitud general del modelo es del 68%, lo que significa que el 68% de las predicciones son correctas en general.
 
-De acuerdo con los coeficientes del modelo se puede llegar a lo siguiente:
+En cuanto a los coeficientes del modelo, se pueden obtener las siguientes conclusiones:
 
-1. La probabilidad de tener mal crédito aumenta a medida que se incrementa la duración, el monto y la tasa de instalación. Por ejemplo, un cambio de una unidad en la duración da como resultado un cambio de 0.0197 unidades en la probabilidad.
+1. La probabilidad de tener mal crédito aumenta a medida que se incrementa la duración, el monto y la tasa de instalación. Por ejemplo, un cambio de una unidad en la duración resulta en un cambio de 0.0197 unidades en la probabilidad.
 
 2. La probabilidad de tener mal crédito disminuye a medida que aumenta la edad. Esto implica que las personas mayores tienden a pagar sus créditos a tiempo en comparación con las personas más jóvenes.
-
 ## Recursos Adicionales
 - [Dataset original](https://archive.ics.uci.edu/dataset/144/statlog+german+credit+data) utilizado en el proyecto.
 
