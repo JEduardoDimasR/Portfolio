@@ -47,6 +47,7 @@ Asegúrate de tener instaladas las siguientes bibliotecas de Python:
 | **job**  | Trabajo | object |
 | **status**  | Estado de crédito  | int 64 |
 
+Para una descripción detallada de las categorías del dataset ingresar a [Dataset original](https://archive.ics.uci.edu/dataset/144/statlog+german+credit+data)
 
 ## Recursos Adicionales
 - [Dataset original](https://archive.ics.uci.edu/dataset/144/statlog+german+credit+data) utilizado en el proyecto.
