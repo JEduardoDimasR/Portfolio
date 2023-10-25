@@ -49,7 +49,28 @@ Asegúrate de tener instaladas las siguientes bibliotecas de Python:
 
 Para una descripción detallada de las categorías del dataset ingresar a [Dataset original](https://archive.ics.uci.edu/dataset/144/statlog+german+credit+data)
 
-## Proceso de toma de desiciones
+## Proceso de toma de decisiones
+
+El objetivo principal del proyecto era crear un modelo de clasificación eficiente para determinar si un cliente era considerado "bueno" (0) o "malo" (1) en función de su historial crediticio. Para lograrlo, se utilizó la codificación de variables categóricas y se construyó un modelo que considera todas las características por cliente, permitiendo identificar aquellas variables que tenían una influencia estadísticamente significativa en el modelo.
+
+A partir de esto, se desarrolló un segundo modelo que ayudó a determinar cuáles características tenían un mayor impacto en la decisión de si se trata de un buen o mal crédito.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Recursos Adicionales
 - [Dataset original](https://archive.ics.uci.edu/dataset/144/statlog+german+credit+data) utilizado en el proyecto.
