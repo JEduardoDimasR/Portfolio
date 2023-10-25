@@ -64,7 +64,7 @@ Para abordar este problema, se utilizó uno de los algoritmos más frecuentement
 
 Para implementar el algoritmo, se hizo uso de la librería statsmodels, ya que tiene un desglose más detallado en función de sus medidas estadísticas.
 
-### Mejores resultados
+### Mejores resultados del modelo
 
 |      | Precision | Recall | F1-Score | Support |
 |------|-----------|--------|----------|---------|
@@ -74,7 +74,38 @@ Para implementar el algoritmo, se hizo uso de la librería statsmodels, ya que t
 | Macro Avg | 0.69    | 0.72   | 0.67     | 300    |
 | Weighted Avg | 0.77  | 0.68   | 0.69     | 300     |
 
+## Resultados del mejor Modelo de Regresión Logística
 
+- **Modelo**: Logit
+- **Método**: MLE (Estimación de Máxima Verosimilitud)
+- **Variable Dependiente**: status
+- **Pseudo R-squared**: 0.161
+- **Fecha**: 2023-10-24 20:11
+- **AIC (Criterio de Información de Akaike)**: 733.8898
+- **Número de Observaciones**: 700
+- **BIC (Criterio de Información Bayesiana)**: 774.8495
+- **Grados de Libertad del Modelo**: 8
+- **Log-Likelihood (Logaritmo de la Verosimilitud)**: -357.94
+- **Grados de Libertad Residuales**: 691
+- **LL-Null (Logaritmo de la Verosimilitud Nula)**: -426.75
+- **Convergencia del Modelo**: 1.0000
+- **Valor p de LLR (Razón de Verosimilitud)**: 7.4185e-26
+- **Número de Iteraciones**: 6.0000
+- **Escala**: 1.0000
+
+### Coeficientes del Modelo
+
+| Variable             | Coeficiente | Error Estándar | Estadística Z | Valor p (P>|z|) | Intervalo de Confianza (95%) |
+|----------------------|-------------|----------------|---------------|-----------------|------------------------------|
+| const                | -0.8969     | 0.4364         | -2.0551       | 0.0399          | [-1.7523, -0.0415]            |
+| duration             | 0.0197      | 0.0098         | 2.0033        | 0.0451          | [0.0004, 0.0390]              |
+| amount               | 0.0001      | 0.0000         | 2.3205        | 0.0203          | [0.0000, 0.0002]              |
+| inst_rate            | 0.2811      | 0.0929         | 3.0264        | 0.0025          | [0.0991, 0.4632]              |
+| age                  | -0.0216     | 0.0089         | -2.4207       | 0.0155          | [-0.0392, -0.0041]            |
+| checkin_acc_A13      | -0.8038     | 0.4081         | -1.9697       | 0.0489          | [-1.6037, -0.0040]            |
+| checkin_acc_A14      | -1.5452     | 0.2187         | -7.0649       | 0.0000          | [-1.9738, -1.1165]            |
+| credit_history_A34   | -0.8781     | 0.2319         | -3.7858       | 0.0002          | [-1.3327, -0.4235]            |
+| savings_acc_A65      | -0.5448     | 0.2581         | -2.1108       | 0.0348          | [-1.0507, -0.0389]            |
 
 
 
