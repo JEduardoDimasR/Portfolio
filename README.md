@@ -49,6 +49,8 @@ Asegúrate de tener instaladas las siguientes bibliotecas de Python:
 
 Para una descripción detallada de las categorías del dataset ingresar a [Dataset original](https://archive.ics.uci.edu/dataset/144/statlog+german+credit+data)
 
+## Proceso de decesición de toma de desiciones
+
 ## Recursos Adicionales
 - [Dataset original](https://archive.ics.uci.edu/dataset/144/statlog+german+credit+data) utilizado en el proyecto.
 
