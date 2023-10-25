@@ -28,5 +28,8 @@ Asegúrate de tener instaladas las siguientes bibliotecas de Python:
 - seaborn
 - statsmodels
 
+## Recursos Adicionales
+- [Dataset original](https://archive.ics.uci.edu/dataset/144/statlog+german+credit+data) utilizado en el proyecto.
+
      
 
