@@ -30,7 +30,7 @@ Asegúrate de tener instaladas las siguientes bibliotecas de Python:
 
 ## Descripción de los datos
 
-| **Nombre**   | **Descripción** |
+| **Nombre**   | **Descripción** | **Categorías** | 
 | :--------: | :----:| 
 | **checkin_acc**     | Estado de la cuenta corriente existente  | 
 | **duration**    | Duración del crédito otorgado en meses   | 
