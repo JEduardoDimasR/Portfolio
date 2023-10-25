@@ -55,8 +55,7 @@ El objetivo principal del proyecto era crear un modelo de clasificación eficien
 
 Posteriormente, se desarrolló un segundo modelo que ayudó a determinar cuáles características tenían un mayor impacto en la decisión de si se trataba de un buen o mal crédito. Luego, se aplicaron tres criterios de clasificación basados en la probabilidad predicha por el modelo entrenado.
 
-Se evaluaron las tres clasificaciones realizadas con métricas, lo que permitió determinar qué técnica o técnicas fueron las más efectivas en función de cada métrica obtenida.
-
+Se evaluaron las tres clasificaciones realizadas con métricas, lo que permitió determinar qué técnica o técnicas fueron las más efectivas.
 
 
 
