@@ -32,9 +32,9 @@ Asegúrate de tener instaladas las siguientes bibliotecas de Python:
 
 | **Nombre**          | **Descripción**                                                 | **Categorías**                                  |
 | :----------------: | :--------------------------------------------------------------: | :-------------------------------------------: |
-| **checkin_acc**    | Estado de la cuenta corriente existente                            | * A11: ... < 0 DM * A12: 0 <= ... < 200 DM
-                                                                                          |* A13 : ... >= 200 DM / asignaciones salariales durante al menos 1 año
-                                                                                          * A14: sin cuenta corriente |
+| **checkin_acc**    | Estado de la cuenta corriente existente                          | * A11: ... < 0 DM * A12: 0 <= ... < 200 DM
+                                                                                        |* A13 : ... >= 200 DM / asignaciones salariales durante al menos 1 año
+                                                                                        |  * A14: sin cuenta corriente |
 | **duration**       | Duración del crédito otorgado en meses                           |
 | **credit_history** | Historial de crédito                                           |
 | **amount**         | Monto del crédito/préstamo                                     |
