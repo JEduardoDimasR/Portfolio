@@ -122,6 +122,26 @@ En cuanto a los coeficientes del modelo, se pueden obtener las siguientes conclu
 1. La probabilidad de tener mal crédito aumenta a medida que se incrementa la duración, el monto y la tasa de instalación. Por ejemplo, un cambio de una unidad en la duración resulta en un cambio de 0.0197 unidades en la probabilidad.
 
 2. La probabilidad de tener mal crédito disminuye a medida que aumenta la edad. Esto implica que las personas mayores tienden a pagar sus créditos a tiempo en comparación con las personas más jóvenes.
+
+## Resumen
+
+En este proyecto, se abordó el objetivo de crear un modelo de clasificación eficiente para determinar si un cliente era "bueno" o "malo" según su historial crediticio. El proceso se dividió en varias etapas, comenzando con la codificación de variables categóricas y la construcción de un modelo que considerara todas las características de cada cliente. Posteriormente, se desarrolló un segundo modelo para identificar las características más influyentes en la decisión de crédito y se aplicaron tres criterios de clasificación basados en la probabilidad predicha.
+
+El rendimiento del modelo se evaluó utilizando métricas, revelando que el modelo final tuvo un AUC de 0.72, que se considera aceptable. Se analizaron métricas específicas para las clases de clientes "buenos" y "malos". La precisión fue del 90% para la clase de "clientes buenos" y del 48% para "clientes malos". El recall para "clientes buenos" fue del 60%, mientras que para "clientes malos" fue del 85%. Los puntajes F1 se situaron en 0.72 y 0.61 respectivamente. La exactitud general del modelo fue del 68%.
+
+Conclusiones:
+
+1. El modelo logró un AUC de 0.72, indicando que es un modelo preciso, ya que supera el umbral de 0.7, que se considera aceptable.
+
+2. Para los "clientes buenos", el modelo demostró una alta precisión del 90%, lo que significa que es efectivo en predecir cuándo un cliente es bueno.
+
+3. Aunque la precisión para los "clientes malos" fue del 48%, el alto recall del 85% indica que el modelo es bueno para identificar a los "clientes malos" cuando realmente lo son.
+
+4. Los coeficientes del modelo revelaron que la duración, el monto y la tasa de instalación aumentan la probabilidad de tener un mal crédito, mientras que la edad disminuye esta probabilidad. Las personas mayores tienden a pagar sus créditos a tiempo en comparación con las personas más jóvenes.
+
+En resumen, el modelo demostró ser eficaz en la clasificación de clientes como "buenos" o "malos" basándose en su historial crediticio, con un AUC sólido y métricas que respaldan su desempeño. Los coeficientes del modelo proporcionan información adicional sobre cómo influyen las características específicas en la decisión de crédito.
+
+
 ## Recursos Adicionales
 - [Dataset original](https://archive.ics.uci.edu/dataset/144/statlog+german+credit+data) utilizado en el proyecto.
 
