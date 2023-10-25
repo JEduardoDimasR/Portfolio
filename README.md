@@ -51,9 +51,11 @@ Para una descripción detallada de las categorías del dataset ingresar a [Datas
 
 ## Proceso de toma de decisiones
 
-El objetivo principal del proyecto era crear un modelo de clasificación eficiente para determinar si un cliente era considerado "bueno" (0) o "malo" (1) en función de su historial crediticio. Para lograrlo, se utilizó la codificación de variables categóricas y se construyó un modelo que considera todas las características por cliente, permitiendo identificar aquellas variables que tenían una influencia estadísticamente significativa en el modelo.
+El objetivo principal del proyecto era crear un modelo de clasificación eficiente para determinar si un cliente era considerado "bueno" (0) o "malo" (1) en función de su historial crediticio. Para lograrlo, se utilizó la codificación de variables categóricas y se construyó un modelo que consideraba todas las características por cliente, lo que permitió identificar las variables que tenían una influencia estadísticamente significativa en el modelo.
 
-A partir de esto, se desarrolló un segundo modelo que ayudó a determinar cuáles características tenían un mayor impacto en la decisión de si se trata de un buen o mal crédito.
+Posteriormente, se desarrolló un segundo modelo que ayudó a determinar cuáles características tenían un mayor impacto en la decisión de si se trataba de un buen o mal crédito. Luego, se aplicó un criterio de clasificación basado en la probabilidad predicha por el modelo entrenado.
+
+Se utilizaron tres diferentes métricas de evaluación para cada clasificación, lo que permitió determinar qué técnica o técnicas fueron las más efectivas en función de cada métrica obtenida. 
 
 
 
