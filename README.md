@@ -129,7 +129,7 @@ En este proyecto, se abordó el objetivo de crear un modelo de clasificación ef
 
 El rendimiento del modelo se evaluó utilizando métricas, revelando que el modelo final tuvo un AUC de 0.72, que se considera aceptable. Se analizaron métricas específicas para las clases de clientes "buenos" y "malos". La precisión fue del 90% para la clase de "clientes buenos" y del 48% para "clientes malos". El recall para "clientes buenos" fue del 60%, mientras que para "clientes malos" fue del 85%. Los puntajes F1 se situaron en 0.72 y 0.61 respectivamente. La exactitud general del modelo fue del 68%.
 
-Conclusiones:
+## Conclusiones:
 
 1. El modelo logró un AUC de 0.72, indicando que es un modelo preciso, ya que supera el umbral de 0.7, que se considera aceptable.
 
