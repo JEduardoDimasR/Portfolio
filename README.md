@@ -32,21 +32,20 @@ Asegúrate de tener instaladas las siguientes bibliotecas de Python:
 
 | **Nombre**   | **Descripción** | **Dtype**|
 | :--------: | :----:| :------: |
-| **checkin_acc**     | Estado de la cuenta corriente existente  | 
-| **duration**    | Duración del crédito otorgado en meses   | 
-| **credit_history**  | Historial de crédito  |
-| **amount**  | Monto del crédito/préstamo|
-| **savings_acc**  | Saldo en cuenta de ahorro   |
-| **present_emp_since**  | Empleo en años  |
-| **inst_rate**  |Tasa de pago a plazos  |
-| **personal_status**  | Estado civil  |
-| **residing_since**  | Residencia en años   |
-| **age**  | Edad en años  |
-| **inst_plans**  | Otros planes de pago a plazos del solicitante|
-| **num_credits**  | Número de créditos existentes en este banco |
-| **job**  | Trabajo |
-| **status**  | Estado de crédito  |
-
+| **checkin_acc**     | Estado de la cuenta corriente existente  | object |
+| **duration**    | Duración del crédito otorgado en meses   | int 64 |
+| **credit_history**  | Historial de crédito  | object |
+| **amount**  | Monto del crédito/préstamo| int 64 |
+| **savings_acc**  | Saldo en cuenta de ahorro   | object |
+| **present_emp_since**  | Empleo en años  | object |
+| **inst_rate**  |Tasa de pago a plazos  | int 64 |
+| **personal_status**  | Estado civil  | object |
+| **residing_since**  | Residencia en años   | int 64 |
+| **age**  | Edad en años  | int 64 |
+| **inst_plans**  | Otros planes de pago a plazos del solicitante| object |
+| **num_credits**  | Número de créditos existentes en este banco | int 64 |
+| **job**  | Trabajo | object |
+| **status**  | Estado de crédito  | int 64 |
 
 
 ## Recursos Adicionales
