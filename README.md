@@ -93,7 +93,7 @@ Para implementar el algoritmo, se hizo uso de la librería statsmodels, ya que t
 - **Número de Iteraciones**: 6.0000
 - **Escala**: 1.0000
 
-### Coeficientes del Modelo
+### Coeficientes del Modelo 
 
 | Variable             | Coeficiente | Error Estándar | Estadística Z | Valor p (P>|z|) | Intervalo de Confianza (95%) |
 |----------------------|-------------|----------------|---------------|-----------------|------------------------------|
