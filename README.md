@@ -58,9 +58,9 @@ Posteriormente, se desarrolló un segundo modelo que ayudó a determinar cuáles
 Se evaluaron las tres clasificaciones realizadas con métricas, lo que permitió determinar qué técnica o técnicas fueron las más efectivas.
 
 
+## Resolviendo el problema
 
-
-
+Para abordar este problema, se utilizó uno de los algoritmos más frecuentemente empleados en el aprendizaje supervisado: la regresión logística. Este algoritmo se utilizó para modelar el conjunto de datos. La regresión logística tiene como objetivo predecir la probabilidad de que un evento pertenezca a una categoría específica. Es comúnmente utilizada en problemas de clasificación binaria, donde se busca determinar si un evento pertenece a una de dos clases posibles (por ejemplo, "sí" o "no", "bueno" o "malo", "positivo" o "negativo", etc.).
 
 
 
