@@ -115,6 +115,7 @@ Para implementar el algoritmo, se hizo uso de la librería statsmodels, ya que t
 
 
 
+
 ## Recursos Adicionales
 - [Dataset original](https://archive.ics.uci.edu/dataset/144/statlog+german+credit+data) utilizado en el proyecto.
 
