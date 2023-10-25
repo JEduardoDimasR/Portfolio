@@ -62,8 +62,18 @@ Se evaluaron las tres clasificaciones realizadas con métricas, lo que permitió
 
 Para abordar este problema, se utilizó uno de los algoritmos más frecuentemente empleados en el aprendizaje supervisado: la regresión logística. Este algoritmo se utilizó para modelar el conjunto de datos. La regresión logística tiene como objetivo predecir la probabilidad de que un evento pertenezca a una categoría específica. Es comúnmente utilizada en problemas de clasificación binaria, donde se busca determinar si un evento pertenece a una de dos clases posibles (por ejemplo, "sí" o "no", "bueno" o "malo", "positivo" o "negativo", etc.).
 
+Para implementar el algoritmo, se hizo uso de la librería statsmodels, ya que tiene un desglose más detallado en función de sus medidas estadísticas.
 
+## Mejores resultados
 
+|      | Precision | Recall | F1-Score | Support |
+|------|-----------|--------|----------|---------|
+| 0    | 0.90      | 0.60   | 0.72     | 209     |
+| 1    | 0.48      | 0.85   | 0.61     | 91      |
+|      |           |        |          |         |
+| Accuracy  |         |         | 0.68  | 300  |
+| Macro Avg | 0.69    | 0.72   | 0.67     | 300     |
+| Weighted Avg | 0.77  | 0.68   | 0.69     | 300     |
 
 
 
