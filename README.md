@@ -93,7 +93,7 @@ Para implementar el algoritmo, se hizo uso de la librería statsmodels, ya que t
 - **Número de Iteraciones**: 6.0000
 - **Escala**: 1.0000
 
-| Variable             | Coeficiente | Error Estándar | Estadística Z | Valor p (P>|z|) |
+| Variable             | Coeficiente | Error Estándar | Estadística Z | Valor p |
 |----------------------|-------------|----------------|---------------|-----------------|
 | const                | -0.8969     | 0.4364         | -2.0551       | 0.0399          |
 | duration             | 0.0197      | 0.0098         | 2.0033        | 0.0451          |
