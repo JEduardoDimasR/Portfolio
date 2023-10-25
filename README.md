@@ -96,7 +96,7 @@ Para implementar el algoritmo, se hizo uso de la librería statsmodels, ya que t
 ### Coeficientes del Modelo 
 
 | Variable             | Coeficiente | Error Estándar | Estadística Z | Valor p (P>|z|) | Intervalo de Confianza (95%) |
-|:----------------------:|:-------------:|:----------------:|---------------:|:-----------------:|:------------------------------:|
+|----------------------|-------------|----------------|---------------|-----------------|------------------------------|
 | const                | -0.8969     | 0.4364         | -2.0551       | 0.0399          | [-1.7523, -0.0415]            |
 | duration             | 0.0197      | 0.0098         | 2.0033        | 0.0451          | [0.0004, 0.0390]              |
 | amount               | 0.0001      | 0.0000         | 2.3205        | 0.0203          | [0.0000, 0.0002]              |
@@ -106,6 +106,7 @@ Para implementar el algoritmo, se hizo uso de la librería statsmodels, ya que t
 | checkin_acc_A14      | -1.5452     | 0.2187         | -7.0649       | 0.0000          | [-1.9738, -1.1165]            |
 | credit_history_A34   | -0.8781     | 0.2319         | -3.7858       | 0.0002          | [-1.3327, -0.4235]            |
 | savings_acc_A65      | -0.5448     | 0.2581         | -2.1108       | 0.0348          | [-1.0507, -0.0389]            |
+
 
 
 
