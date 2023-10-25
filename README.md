@@ -107,6 +107,7 @@ Para implementar el algoritmo, se hizo uso de la librería statsmodels, ya que t
 | credit_history_A34   | -0.8781     | 0.2319         | -3.7858       | 0.0002          | [-1.3327, -0.4235]            |
 | savings_acc_A65      | -0.5448     | 0.2581         | -2.1108       | 0.0348          | [-1.0507, -0.0389]            |
 
+### Matriz de confusión del mejor resultado de clasificación del modelo
 
 ![](https://github.com/JEduardoDimasR/Proyecto-personal/blob/main/Matriz%201.png)
 
