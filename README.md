@@ -20,7 +20,7 @@ git clone https://github.com/JEduardoDimasR/Proyecto-personal.git
 3. Ejecuta el notebook en un entorno de Jupyter para explorar y ejecutar el código.
 
 ## Requisitos
-Asegúrate de tener instaladas las siguientes bibliotecas de Python:
+Asegúrate de tener instaladas las siguientes librerías de Python:
 - scikit-learn
 - pandas
 - numpy
