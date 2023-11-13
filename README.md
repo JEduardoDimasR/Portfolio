@@ -1,5 +1,4 @@
-# Proyecto-personal
-Proyecto de Clasificación de Datos con Regresión Logística 
+# Proyecto de Clasificación de Datos con Regresión Logística 
 
 ## Descripción
 Este proyecto utiliza un modelo de regresión logística en Python para clasificar a los clientes como buenos o malos en función de un conjunto de datos que contiene información sobre créditos. El objetivo
