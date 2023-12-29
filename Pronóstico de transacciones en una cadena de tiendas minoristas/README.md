@@ -35,5 +35,41 @@ Finalmente, se desarrolló un segundo modelo más robusto para establecer un pro
 
 ## Resolución del problema
 
-Para resolver este problema, se emplearon dos enfoques distintos: el modelo estadístico clásico para series temporales, ARIMA, y un modelo de aprendizaje profundo, las Redes Neuronales Recurrentes (RNN). ARIMA se enfoca en pronosticar valores futuros basados en patrones históricos, combinando componentes autoregresivos, de media móvil y de diferenciación para modelar tendencias, estacionalidades y ciclos. Por otro lado, las RNN tienen como objetivo capturar complejas dependencias temporales en secuencias de datos, donde la información previa es crucial para predecir el siguiente paso en la secuencia. La implementación de estos algoritmos se realizó mediante la utilización de la librería 'statsmodels' para ARIMA y el framework 'Keras' para las RNN.
+Para resolver este problema, se emplearon dos enfoques distintos: el modelo estadístico clásico para series temporales, ARIMA, y un modelo de aprendizaje profundo, las Redes Neuronales Recurrentes (RNN). ARIMA se enfoca en pronosticar valores futuros basados en patrones históricos, combinando componentes autoregresivos, de media móvil y de diferenciación para modelar tendencias, estacionalidades y ciclos.
+Por otro lado, las RNN tienen como objetivo capturar complejas dependencias temporales en secuencias de datos, donde la información previa es crucial para predecir el siguiente paso en la secuencia. 
+La implementación de estos algoritmos se realizó mediante la utilización de la librería 'statsmodels' para ARIMA y el framework 'Keras' para las RNN.
+
+## SARIMAX Results
+
+|                          |                     |
+|--------------------------|---------------------|
+| **Dep. Variable**        | Transactions        |
+| **No. Observations**     | 103                 |
+| **Model**                | ARIMA(1, 1, 1)      |
+| **Log Likelihood**       | -265.961            |
+| **Date**                 | Thu, 28 Dec 2023    |
+| **AIC**                  | 537.922             |
+| **Time**                 | 02:32:05            |
+| **BIC**                  | 545.797             |
+| **Sample**               | 10-01-2014          |
+|                          | - 01-11-2015        |
+| **Covariance Type**      | opg                 |
+|--------------------------|---------------------|
+|                          |                     |
+| **coef**                 | std err             |
+|--------------------------|---------------------|
+| ar.L1                    | 0.4975              |
+| ma.L1                    | -0.7803             |
+| sigma2                   | 10.7476             |
+|--------------------------|---------------------|
+|                          |                     |
+| **Ljung-Box (L1) (Q)**   | 0.05                |
+| **Prob(Q)**              | 0.82                |
+| **Jarque-Bera (JB)**     | 65.16               |
+| **Prob(JB)**             | 0.00                |
+| **Heteroskedasticity (H)**| 0.91               |
+| **Skew**                 | -0.76               |
+| **Prob(H) (two-sided)**  | 0.78                |
+| **Kurtosis**             | 6.61                |
+
 
