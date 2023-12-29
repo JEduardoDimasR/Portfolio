@@ -85,4 +85,4 @@ La implementación de estos algoritmos se realizó mediante la utilización de l
 
 ## Conclusiones
 
-![]([https://github.com/JEduardoDimasR/Proyecto-personal/blob/main/Matriz%201.png](https://github.com/JEduardoDimasR/Portfolio/blob/main/Pron%C3%B3stico%20de%20transacciones%20en%20una%20cadena%20de%20tiendas%20minoristas/SERIE%20RNN.png?raw=true)https://github.com/JEduardoDimasR/Portfolio/blob/main/Pron%C3%B3stico%20de%20transacciones%20en%20una%20cadena%20de%20tiendas%20minoristas/SERIE%20RNN.png?raw=true)
+![](https://github.com/JEduardoDimasR/Portfolio/blob/main/Pron%C3%B3stico%20de%20transacciones%20en%20una%20cadena%20de%20tiendas%20minoristas/SERIE%20RNN.png)
