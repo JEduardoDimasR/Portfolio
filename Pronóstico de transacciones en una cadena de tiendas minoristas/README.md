@@ -91,6 +91,18 @@ Se realizaron dos enfoques para predecir las transacciones en una cadena minoris
 Además, se empleó una red neuronal recurrente del tipo GRU para modelar datos secuenciales, logrando errores de entrenamiento y prueba de 3.22 y 4.68, respectivamente. Estos resultados indican que ambos enfoques proporcionaron modelos aceptables para predecir las transacciones, con la red neuronal recurrente mostrando una tendencia a generalizar bien a nuevos datos.
 
 
+## Conclusiones
 
+1. Enfoques de Modelado: Se emplearon dos enfoques distintos, ARIMA y RNN (específicamente GRU), para predecir las transacciones en la cadena de tiendas minoristas. ARIMA ofreció un error porcentual medio del 22.70%, proporcionando una comprensión del comportamiento de las transacciones y tendencias. Mientras tanto, la red neuronal recurrente GRU demostró resultados más precisos con errores de entrenamiento y prueba de 3.22 y 4.68, respectivamente.
+
+2. Precisión del Modelo: La RNN (GRU) mostró una tendencia a generalizar mejor a nuevos datos, reflejada en su capacidad para predecir las transacciones con un error de prueba relativamente bajo en comparación con ARIMA. Esto sugiere que las RNN podrían ser más adecuadas para capturar las complejas dependencias temporales en datos secuenciales como las transacciones minoristas.
+
+3. Uso Estratégico: Ambos modelos ofrecen herramientas valiosas para la cadena minorista. ARIMA proporciona una comprensión general y una tendencia de las transacciones, mientras que la RNN (GRU) podría ser más útil para predicciones más precisas y adaptadas a nuevas circunstancias.
+
+4. Toma de Decisiones: Estos modelos pueden ser vitales para la toma de decisiones estratégicas y la optimización operativa en sucursales minoristas. ARIMA ofrece una visión general del comportamiento histórico, mientras que la RNN (GRU) brinda una herramienta más precisa para anticipar y responder a cambios en las transacciones futuras.
+
+5. Generalización y Adaptabilidad: La capacidad de la RNN para generalizar a nuevos datos señala su adaptabilidad a patrones cambiantes, lo que la convierte en una opción prometedora para pronósticos continuos y adaptativos en entornos comerciales dinámicos.
+
+Estas conclusiones destacan las fortalezas de cada modelo y su aplicabilidad potencial para respaldar decisiones estratégicas y operativas en el contexto de la cadena minorista.
 
 
