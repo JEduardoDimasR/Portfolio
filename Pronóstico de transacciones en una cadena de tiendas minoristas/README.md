@@ -25,7 +25,7 @@ Asegúrate de tener instaladas las siguientes librerías de Python:
 | **Date**     | Fechas diarias  | datetime64[ns] |
 | **Transactions**    | Transacciones de la cadena de tiendas minoristas   | int 64 |
 
-**Análisis de Pronóstico de Transacciones: Modelos y Evaluación **
+## Análisis de Pronóstico de Transacciones: Modelos y Evaluación 
 
 El principal objetivo del proyecto fue crear un modelo de pronóstico eficiente para predecir el número de transacciones del próximo mes basándose en su historial. Para lograrlo, se visualizaron todas las componentes de la serie temporal correspondientes a las transacciones de la cadena minorista, lo que permitió identificar su comportamiento y el tipo de modelo estadístico a utilizar.
 
