@@ -39,7 +39,7 @@ Para resolver este problema, se emplearon dos enfoques distintos: el modelo esta
 Por otro lado, las RNN tienen como objetivo capturar complejas dependencias temporales en secuencias de datos, donde la información previa es crucial para predecir el siguiente paso en la secuencia. 
 La implementación de estos algoritmos se realizó mediante la utilización de la librería 'statsmodels' para ARIMA y el framework 'Keras' para las RNN.
 
-## SARIMAX Results
+## Resultados 
 
 |                          |                     |
 |--------------------------|---------------------|
