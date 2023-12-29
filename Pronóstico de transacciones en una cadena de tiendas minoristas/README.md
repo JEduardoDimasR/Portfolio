@@ -41,6 +41,8 @@ La implementación de estos algoritmos se realizó mediante la utilización de l
 
 ## Resultados 
 
+### ARIMA
+
 |                          |                     |
 |--------------------------|---------------------|
 | **Dep. Variable**        | Transactions        |
@@ -73,3 +75,14 @@ La implementación de estos algoritmos se realizó mediante la utilización de l
 | **Kurtosis**             | 6.61                |
 
 
+**El modelo de predicción para el modelo ARIMA(1,1,1) obtuvo un margen de error del 22.70%**
+
+### RNN
+
+- Durante el entrenamiento (Epochs 96-100), la pérdida o error de entrenamiento osciló entre aproximadamente 0.3842 y 0.3926, lo que indica cómo el modelo se desempeñó durante las iteraciones finales de ajuste con los datos de entrenamiento.
+
+- Después de entrenar el modelo, se evaluó con datos de entrenamiento y prueba independientes. El error cuadrático medio (RMSE) del conjunto de entrenamiento fue de aproximadamente 3.22, mientras que para el conjunto de prueba fue de aproximadamente 4.68. Esto indica cómo se comportó el modelo al hacer predicciones con datos que no había visto durante el entrenamiento.
+
+## Conclusiones
+
+![](https://github.com/JEduardoDimasR/Proyecto-personal/blob/main/Matriz%201.png)
