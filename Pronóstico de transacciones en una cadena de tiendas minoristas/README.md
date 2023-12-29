@@ -6,7 +6,7 @@ Este proyecto se enfoca en una cadena minorista con múltiples ubicaciones, busc
 ## Estructura del repositorio
 - `Pronóstico_de_transacciones_en_una_cadena_de_tiendas_minoristas.ipynb`: Jupyter Notebook que contiene el código y el análisis del modelo.
 - `Store.xls`: Conjunto de datos de transacciones diarías utilizado en el proyecto.
-- `requirements.txt`: Archivo de requisitos que lista las dependencias necesarias para ejecutar el código.
+- `requirements.txt`: Archivo de requisitos que lista las dependencias necesarias para ejecutar el código. 
 
 ## Requisitos
 Asegúrate de tener instaladas las siguientes librerías de Python:
