@@ -32,3 +32,8 @@ El principal objetivo del proyecto fue crear un modelo de pronóstico eficiente 
 Posteriormente, se procedió al cálculo de las autocorrelaciones para los rezagos de la serie temporal, lo que ayudó a determinar si la serie era estacionaria o no. Luego, se creó un modelo y se evaluó su precisión mediante una métrica para medir el desempeño del modelo.
 
 Finalmente, se desarrolló un segundo modelo más robusto para establecer un pronóstico más confiable y preciso, con el que se evaluó su precisión.
+
+## Resolución del problema
+
+Para resolver este problema, se emplearon dos enfoques distintos: el modelo estadístico clásico para series temporales, ARIMA, y un modelo de aprendizaje profundo, las Redes Neuronales Recurrentes (RNN). ARIMA se enfoca en pronosticar valores futuros basados en patrones históricos, combinando componentes autoregresivos, de media móvil y de diferenciación para modelar tendencias, estacionalidades y ciclos. Por otro lado, las RNN tienen como objetivo capturar complejas dependencias temporales en secuencias de datos, donde la información previa es crucial para predecir el siguiente paso en la secuencia. La implementación de estos algoritmos se realizó mediante la utilización de la librería 'statsmodels' para ARIMA y el framework 'Keras' para las RNN.
+
