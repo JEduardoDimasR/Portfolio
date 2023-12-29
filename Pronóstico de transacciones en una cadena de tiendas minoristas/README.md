@@ -103,6 +103,6 @@ Además, se empleó una red neuronal recurrente del tipo GRU para modelar datos 
 
 5. Generalización y Adaptabilidad: La capacidad de la RNN para generalizar a nuevos datos señala su adaptabilidad a patrones cambiantes, lo que la convierte en una opción prometedora para pronósticos continuos y adaptativos en entornos comerciales dinámicos.
 
-Estas conclusiones destacan las fortalezas de cada modelo y su aplicabilidad potencial para respaldar decisiones estratégicas y operativas en el contexto de la cadena minorista.
+Estas conclusiones destacan las fortalezas de cada modelo y su aplicabilidad potencial para respaldar decisiones estratégicas y operativas en la cadena minorista.
 
 
