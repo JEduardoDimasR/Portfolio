@@ -83,6 +83,14 @@ La implementación de estos algoritmos se realizó mediante la utilización de l
 
 - Después de entrenar el modelo, se evaluó con datos de entrenamiento y prueba independientes. El error cuadrático medio (RMSE) del conjunto de entrenamiento fue de aproximadamente 3.22, mientras que para el conjunto de prueba fue de aproximadamente 4.68. Esto indica cómo se comportó el modelo al hacer predicciones con datos que no había visto durante el entrenamiento.
 
-## Conclusiones
-
 ![](https://github.com/JEduardoDimasR/Portfolio/blob/main/Pron%C3%B3stico%20de%20transacciones%20en%20una%20cadena%20de%20tiendas%20minoristas/SERIE%20RNN.png)
+
+## Resumen
+
+Se realizaron dos enfoques para predecir las transacciones en una cadena minorista. En un análisis de series temporales, se exploraron 115 observaciones, se verificó la estacionariedad y se ajustó un modelo ARIMA (1,1,1). Este modelo obtuvo un error porcentual medio del 22.70%, brindando un entendimiento del comportamiento de las transacciones y ofreciendo una forma de predecir su tendencia. 
+Además, se empleó una red neuronal recurrente del tipo GRU para modelar datos secuenciales, logrando errores de entrenamiento y prueba de 3.22 y 4.68, respectivamente. Estos resultados indican que ambos enfoques proporcionaron modelos aceptables para predecir las transacciones, con la red neuronal recurrente mostrando una tendencia a generalizar bien a nuevos datos.
+
+
+
+
+
