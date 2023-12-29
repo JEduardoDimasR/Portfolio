@@ -17,3 +17,10 @@ Asegúrate de tener instaladas las siguientes librerías de Python:
 - Statsmodels
 - Keras
 - TensorFlow
+
+## Descripción de los datos
+
+| **Nombre**   | **Descripción** | **Dtype**|
+| :--------: | :----:| :------: |
+| **Date**     | Fechas diarias  | datetime64[ns] |
+| **Transactions**    | Transacciones de la cadena de tiendas minoristas   | int 64 |
